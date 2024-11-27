@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Q6.The  Sliedr Position is Updated to the Textbox value.
+The Testcase is passed . Slidervalue is = 560]]>
+    </line>
+    <line>
+      <![CDATA[Q8.The Total Recurring Reimbursement is =  $75600]]>
+    </line>
+    <line>
+      <![CDATA[Q4.The textBox value is matched to slider value.
+The value is = 820]]>
+    </line>
+    <line>
+      <![CDATA[Q9.The header value is Matched with the required value.
+The header value is = $110700]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-27T14:19:14 IST" name="Default suite" finished-at="2024-11-27T14:20:36 IST" duration-ms="82488">
+    <groups>
+    </groups>
+    <test started-at="2024-11-27T14:19:14 IST" name="Default test" finished-at="2024-11-27T14:20:36 IST" duration-ms="82488">
+      <class name="fitPeo.AssignmentTestng">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:fitPeo.AssignmentTestng@712625fd]" started-at="2024-11-27T14:19:14 IST" name="browserSetup" finished-at="2024-11-27T14:19:24 IST" duration-ms="10546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="NavigatingFitpeo()[pri:1, instance:fitPeo.AssignmentTestng@712625fd]" started-at="2024-11-27T14:19:24 IST" name="NavigatingFitpeo" description="Q.1.Navigate to the FitPeo Homepage" finished-at="2024-11-27T14:19:34 IST" duration-ms="10066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigatingFitpeo -->
+        <test-method signature="RevenueCalculatorPage()[pri:2, instance:fitPeo.AssignmentTestng@712625fd]" started-at="2024-11-27T14:19:34 IST" name="RevenueCalculatorPage" description="Q.2.Navigate to the Revenue Calculator Page" finished-at="2024-11-27T14:19:42 IST" duration-ms="7356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RevenueCalculatorPage -->
+        <test-method signature="ScrollToSlider()[pri:3, instance:fitPeo.AssignmentTestng@712625fd]" started-at="2024-11-27T14:19:42 IST" name="ScrollToSlider" description="Q.3.Scroll Down to the Slider section" finished-at="2024-11-27T14:19:45 IST" duration-ms="3228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollToSlider -->
+        <test-method signature="UpdateTextField()[pri:4, instance:fitPeo.AssignmentTestng@712625fd]" started-at="2024-11-27T14:19:45 IST" name="UpdateTextField" description="Q.5.Inserting the vlaue 560 in textbox" finished-at="2024-11-27T14:19:53 IST" duration-ms="7805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateTextField -->
+        <test-method signature="ValidateSliderValue()[pri:5, instance:fitPeo.AssignmentTestng@712625fd]" started-at="2024-11-27T14:19:53 IST" name="ValidateSliderValue" description="Q.6.Validating the Slider Position as per the Textbox Value" finished-at="2024-11-27T14:19:53 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Q6.The  Sliedr Position is Updated to the Textbox value.
+The Testcase is passed . Slidervalue is = 560]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateSliderValue -->
+        <test-method signature="SelectCPTCodes()[pri:6, instance:fitPeo.AssignmentTestng@712625fd]" started-at="2024-11-27T14:19:53 IST" name="SelectCPTCodes" description="Q.7.Select CPT Codes" finished-at="2024-11-27T14:20:19 IST" duration-ms="25843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectCPTCodes -->
+        <test-method signature="TotalRecurringReimbursement()[pri:7, instance:fitPeo.AssignmentTestng@712625fd]" started-at="2024-11-27T14:20:19 IST" name="TotalRecurringReimbursement" description="Q.8.Validate Total Recurring Reimbursement" finished-at="2024-11-27T14:20:19 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Q8.The Total Recurring Reimbursement is =  $75600]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TotalRecurringReimbursement -->
+        <test-method signature="AdjustingTheSlider()[pri:8, instance:fitPeo.AssignmentTestng@712625fd]" started-at="2024-11-27T14:20:19 IST" name="AdjustingTheSlider" description="Q.4.1.Adjusting slider value to 820" finished-at="2024-11-27T14:20:28 IST" duration-ms="8877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdjustingTheSlider -->
+        <test-method signature="ValidatTextfieldValue()[pri:9, instance:fitPeo.AssignmentTestng@712625fd]" started-at="2024-11-27T14:20:28 IST" name="ValidatTextfieldValue" description="Q.4.2.Validating the text field value as per the slider value 820" finished-at="2024-11-27T14:20:31 IST" duration-ms="3039" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Q4.The textBox value is matched to slider value.
+The value is = 820]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidatTextfieldValue -->
+        <test-method signature="HeaderTotalRecurringReimbursement()[pri:10, instance:fitPeo.AssignmentTestng@712625fd]" started-at="2024-11-27T14:20:31 IST" name="HeaderTotalRecurringReimbursement" description="Q.9.Verify that the header Total Recurring Reimbursement for all Patients Per Month: shows the value $110700." finished-at="2024-11-27T14:20:36 IST" duration-ms="5376" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Q9.The header value is Matched with the required value.
+The header value is = $110700]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- HeaderTotalRecurringReimbursement -->
+      </class> <!-- fitPeo.AssignmentTestng -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

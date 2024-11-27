@@ -24,7 +24,7 @@ public class AssignmentTestng {
 	@BeforeTest
 	public void browserSetup() throws Throwable {
 		
-		System.setProperty("webdriver.gecko.driver","C:\\Users\\user\\Eclips2\\assignment\\rc\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver","C:\\Users\\user\\git\\FitPeo\\assignment\\rc\\geckodriver.exe");
 		 dr = new FirefoxDriver();
 		Thread.sleep(3000);
 	}
@@ -162,6 +162,7 @@ public class AssignmentTestng {
 			Reporter.log(" Q9.Tset case is failed for slider value 820.",true);
 			
 		}
+		dr.close();
 		
 		
 
