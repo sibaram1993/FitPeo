@@ -13,7 +13,7 @@ public class AssignmentWithoutTestNg {
 	public static void main(String[] args) throws InterruptedException {
 		
 				// ====================SETTING UP FIREFOX BROWSER====================
-				System.setProperty("webdriver.gecko.driver","C:\\Users\\user\\Eclips2\\assignment\\rc\\geckodriver.exe");
+				System.setProperty("webdriver.gecko.driver",""C:\\Users\\user\\git\\FitPeo\\assignment\\rc\\geckodriver.exe"");
 				WebDriver dr = new FirefoxDriver();
 				Thread.sleep(3000);
 				
